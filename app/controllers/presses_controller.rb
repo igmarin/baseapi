@@ -1,9 +1,8 @@
 class PressesController < ApplicationController
   def index
     @presses = Press.all
-    @hash = {:presses => @presses }
     respond_to do |f|
-      f.json { render json: @hash }
+      f.json { render json: @presses }
     end
   end
 
