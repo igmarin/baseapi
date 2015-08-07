@@ -1,8 +1,9 @@
 class CodesController < ApplicationController
   def index
     @codes = Code.all
+    @hash = {:codes => @codes}
     respond_to do |f|
-      f.json { render json: @codes }
+      f.json { render json: @hash }
     end
   end
 
