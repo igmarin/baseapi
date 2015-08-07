@@ -15,3 +15,4 @@ FeaturedPartner.create(avatar: "/images/partners/logos/yahoo.svg",   partner_nam
 FeaturedPartner.create(avatar: "/images/partners/logos/multi.svg",   partner_name: "Multifunding", link_uri: "")
 FeaturedPartner.create(avatar:"/images/partners/logos/funding.svg",  partner_name: "Funding Circle", link_uri: "")
 FeaturedPartner.create(avatar:"/images/partners/logos/fidelity.svg", partner_name: "Fidelity Business Advisors", link_uri: "")
+FeaturedPartner.create(avatar:"/images/partners/logos/fundera.svg", partner_name: "Fundera", link_uri: "")
