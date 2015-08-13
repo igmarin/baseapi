@@ -1,9 +1,9 @@
 class VanityUrlsController < ApplicationController
   def index
     @vanity_urls = VanityUrl.all
-    @hash = {:vanity_urls => @vanity_urls }
+    #@hash = {:vanity_urls => @vanity_urls }
     respond_to do |f|
-      f.json { render json: @hash }
+      f.json { render json: @vanity_urls }
     end
   end
 
