@@ -13,10 +13,9 @@ Press.create(avatar: "/images/home/newslogos/wall.svg", press_name: "The Wall St
 puts "Featured Partners"
 FeaturedPartner.delete_all
 FeaturedPartner.create(avatar: "/images/partners/logos/yahoo.svg",   partner_name: "Yahoo Commerce Central", link_uri: "")
-FeaturedPartner.create(avatar: "/images/partners/logos/multi.svg",   partner_name: "Multifunding", link_uri: "")
-FeaturedPartner.create(avatar:"/images/partners/logos/funding.svg",  partner_name: "Funding Circle", link_uri: "")
-FeaturedPartner.create(avatar:"/images/partners/logos/fidelity.svg", partner_name: "Fidelity Business Advisors", link_uri: "")
-FeaturedPartner.create(avatar:"/images/partners/logos/fundera.svg", partner_name: "Fundera", link_uri: "")
+FeaturedPartner.create(avatar: "/images/partners/logos/california.svg",   partner_name: "California SBDC", link_uri: "")
+FeaturedPartner.create(avatar:"/images/partners/logos/shakey.svg",  partner_name: "Shakey's Pizza & Grill", link_uri: "")
+FeaturedPartner.create(avatar:"/images/partners/logos/xero.svg", partner_name: "Xero", link_uri: "")
 puts "Employee"
 Employee.delete_all
 Employee.create(avatar: "/images/about/eli.jpg", employee_name: "Elizabeth <br> Banks")
